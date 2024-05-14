@@ -16,3 +16,10 @@ if (process.env.DB_URL) {
     }
   );
 }
+module.exports = sequelize;
+//const db = {};
+//db.Sequelize = Sequelize;
+//db.sequelize = sequelize;
+//db.users = require('./user.js')(sequelize, Sequelize);
+
+
