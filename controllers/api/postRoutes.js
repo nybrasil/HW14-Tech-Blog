@@ -9,7 +9,7 @@ router.post('/', apiGuard, async (req, res) => {
     const newPost = await Post.create({ ...body, userId: req.session.user_id });
     res.json(newPost);
   } catch (err) {
-    res.status(500).json(err);
+    res.status(400).json(err);
   }
 });
 
@@ -22,12 +22,12 @@ router.put('/:id', apiGuard, async (req, res) => {
     });
 
     if (affectedRows > 0) {
-      res.status(200).end();
+      res.status(205).end();
     } else {
       res.status(404).end();
     }
   } catch (err) {
-    res.status(500).json(err);
+    res.status(400).json(err);
   }
 });
 
@@ -40,12 +40,12 @@ router.delete('/:id', apiGuard, async (req, res) => {
     });
 
     if (affectedRows > 0) {
-      res.status(200).end();
+      res.status(205).end();
     } else {
       res.status(404).end();
     }
   } catch (err) {
-    res.status(500).json(err);
+    res.status(400).json(err);
   }
 });
 
