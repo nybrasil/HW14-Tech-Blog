@@ -1,14 +1,18 @@
 [
-    {
-      "title": "Music Near Me",
-      "body": "A mobile app that will send you notifications whenever a concert is playing in your area."
-    },
-    {
-      "title": "The Ultimate Tech Quiz",
-      "body": "A web app that will give users 10 new technical questions each day and track their progress in things like programming, cybersecurity, database architecture, and more!"
-    },
-    {
-      "title": "Roll 'Em Up",
-      "body": "A game for Windows and macOS where players move a ball through a series of increasingly challenging mazes."
-    }
-  ]
+{
+  "title": "Recipe Guru",
+  "body": "A web app that suggests recipes based on the ingredients you have at home. Users can input the items they have and get a list of possible recipes, complete with instructions and nutritional information."
+},
+{
+  "title": "Fitness Buddy",
+  "body": "A mobile app that creates personalized workout plans and nutrition guides. It tracks users' progress and adjusts the plans according to their performance and goals."
+},
+{
+  "title": "Travel Planner",
+  "body": "A web app that helps users plan their trips by suggesting itineraries, booking accommodations, and providing information about local attractions, restaurants, and events."
+},
+{
+  "title": "Bookworm Haven",
+  "body": "An online community for book lovers where users can review and discuss books, join virtual book clubs, and get personalized book recommendations."
+}
+]

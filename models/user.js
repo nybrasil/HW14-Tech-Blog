@@ -23,14 +23,14 @@ class User extends Model {
             notEmpty: true,
         }
       },
-      email: {
-        type: DataTypes.STRING,
-        allowNull: false,
-        unique: true,
-        validate: {
-          isEmail: true,
-        },
-      },
+      //email: {
+        //type: DataTypes.STRING,
+        //allowNull: false,
+        //unique: true,
+        //validate: {
+          //isEmail: true,
+        //},
+     // },
       password: {
         type: DataTypes.STRING,
         allowNull: false,
@@ -51,7 +51,7 @@ class User extends Model {
             },
           },
           sequelize,
-          timestamps: false,
+          //timestamps: false,
           freezeTableName: true,
           underscored: true,
           modelName: 'user',
