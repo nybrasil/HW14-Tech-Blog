@@ -9,7 +9,7 @@ router.post('/', apiGuard, async (req, res) => {
     const newPost = await Post.create({ ...body, userId: req.session.user_id });
     res.json(newPost);
   } catch (err) {
-    res.status(400).json(err);
+    res.status(500).json(err);
   }
 });
 
