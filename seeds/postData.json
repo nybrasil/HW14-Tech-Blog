@@ -1,18 +1,18 @@
 [
-{
-  "title": "Recipe Guru",
-  "body": "A web app that suggests recipes based on the ingredients you have at home. Users can input the items they have and get a list of possible recipes, complete with instructions and nutritional information."
-},
-{
-  "title": "Fitness Buddy",
-  "body": "A mobile app that creates personalized workout plans and nutrition guides. It tracks users' progress and adjusts the plans according to their performance and goals."
-},
-{
-  "title": "Travel Planner",
-  "body": "A web app that helps users plan their trips by suggesting itineraries, booking accommodations, and providing information about local attractions, restaurants, and events."
-},
-{
-  "title": "Bookworm Haven",
-  "body": "An online community for book lovers where users can review and discuss books, join virtual book clubs, and get personalized book recommendations."
-}
+  {
+    "title": "DevConnect",
+    "body": "A social networking platform for developers to connect, collaborate, and share knowledge. Users can create profiles, post articles, join groups, and participate in coding challenges."
+  },
+  {
+    "title": "Code Snippet Manager",
+    "body": "A web application that allows developers to save, organize, and share their code snippets. Users can categorize snippets, add tags, and search for specific pieces of code."
+  },
+  {
+    "title": "AI Code Reviewer",
+    "body": "A web-based tool that uses AI to review and suggest improvements to your code. It can identify potential bugs, optimize performance, and ensure best practices are followed."
+  },
+  {
+    "title": "Tech Trends Tracker",
+    "body": "A platform that aggregates and analyzes the latest trends in technology. Users can follow specific topics, read curated articles, and receive personalized recommendations based on their interests."
+    }
 ]
