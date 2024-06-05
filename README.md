@@ -47,6 +47,7 @@ To install the application, follow these steps:
 
 ## Screenshots
 
+![alt](./assets/Screenshot%202024-06-05%20at%2012.12.07 PM.png)
 
 ## License
 
